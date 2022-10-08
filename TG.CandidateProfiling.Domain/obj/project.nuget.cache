@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "q4C9otW8v0kQQzjxX4o2k5EPAzfrBHsKF+hpaSp6ceCg1VX5A96/R+ypWHP6g45eP/ZeX6lIjTfo/sMCeYdIoQ==",
+  "success": true,
+  "projectFilePath": "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.Domain\\TG.CandidateProfiling.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Venkat\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Venkat\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

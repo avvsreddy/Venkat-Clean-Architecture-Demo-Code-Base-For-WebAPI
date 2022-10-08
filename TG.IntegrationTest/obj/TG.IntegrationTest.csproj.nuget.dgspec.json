@@ -1,0 +1,316 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.IntegrationTest\\TG.IntegrationTest.csproj": {}
+  },
+  "projects": {
+    "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.API\\TG.CandidateProfiling.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.API\\TG.CandidateProfiling.API.csproj",
+        "projectName": "TG.CandidateProfiling.API",
+        "projectPath": "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.API\\TG.CandidateProfiling.API.csproj",
+        "packagesPath": "C:\\Users\\Venkat\\.nuget\\packages\\",
+        "outputPath": "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Venkat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.Data\\TG.CandidateProfiling.Data.csproj": {
+                "projectPath": "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.Data\\TG.CandidateProfiling.Data.csproj"
+              },
+              "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.Domain\\TG.CandidateProfiling.Domain.csproj": {
+                "projectPath": "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.Domain\\TG.CandidateProfiling.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.Data\\TG.CandidateProfiling.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.Data\\TG.CandidateProfiling.Data.csproj",
+        "projectName": "TG.CandidateProfiling.Data",
+        "projectPath": "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.Data\\TG.CandidateProfiling.Data.csproj",
+        "packagesPath": "C:\\Users\\Venkat\\.nuget\\packages\\",
+        "outputPath": "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Venkat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.Domain\\TG.CandidateProfiling.Domain.csproj": {
+                "projectPath": "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.Domain\\TG.CandidateProfiling.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.Domain\\TG.CandidateProfiling.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.Domain\\TG.CandidateProfiling.Domain.csproj",
+        "projectName": "TG.CandidateProfiling.Domain",
+        "projectPath": "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.Domain\\TG.CandidateProfiling.Domain.csproj",
+        "packagesPath": "C:\\Users\\Venkat\\.nuget\\packages\\",
+        "outputPath": "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Venkat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.IntegrationTest\\TG.IntegrationTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.IntegrationTest\\TG.IntegrationTest.csproj",
+        "projectName": "TG.IntegrationTest",
+        "projectPath": "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.IntegrationTest\\TG.IntegrationTest.csproj",
+        "packagesPath": "C:\\Users\\Venkat\\.nuget\\packages\\",
+        "outputPath": "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.IntegrationTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Venkat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.API\\TG.CandidateProfiling.API.csproj": {
+                "projectPath": "E:\\New folder\\src\\Clean Architecture - Code Base\\TG.CandidateProfiling.API\\TG.CandidateProfiling.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
